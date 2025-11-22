@@ -7,9 +7,11 @@ export const Links = {
 
   routes: {
     home: "/",
+    map: "/map",
     dashboard: "/dashboard",
     report: "/report",
-    reports: "/reports",
+    feed: "/feed",
+    news: "/news",
     settings: "/settings",
 
     // Auth
