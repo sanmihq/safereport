@@ -1,1 +1,11 @@
 @import "tailwindcss";
+@plugin "../lib//hero.ts";
+@source "../../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}";
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --brand-green: #1e7f46;
+  --brand-green-dark: #166436;
+  --brand-green-light: #e8f5e9;
+  --brand-green-light-hover: #d6ebd8;
+}
